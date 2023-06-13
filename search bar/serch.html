@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        * {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.searchbar {
+
+    border: solid 1px;
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  width: 10px;
+  padding: 10px 25px;
+  background: #fff;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: 0.8s ease;
+  
+}
+.searchbar:hover input{
+  width: 400px;
+}
+.searchbar:hover{
+    width: 400px;
+}
+
+
+.searchbar input{
+  width: 0;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  transition: 0.8s ease;
+  background: transparent;
+}
+.searchbar a .fa-solid{
+  font-size: 18px;
+}
+.aa{
+    padding-left: 40%;
+}
+    </style>
+</head>
+<body>
+    <div class="aa">
+    <div class="searchbar">
+        <input type="text" placeholder="Search...">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+</body>
+</html>
